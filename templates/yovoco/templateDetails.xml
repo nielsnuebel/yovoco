@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+<extension version="3.1" type="template" client="site">
+	
+	<name>yovoco</name>
+	<creationDate>14.10.2014</creationDate>
+	<author>Niels Nübel</author>
+	<copyright>Copyright © 2014 nn-medienagentur.de</copyright>
+	<authorEmail>info@nn-medienagentur.de</authorEmail>
+	<authorUrl>http://www.nn-medienagentur.de</authorUrl>
+	<version>0.0.1</version>
+	<description><![CDATA[ 
+		<h1>yovoco</h1>
+		<p><img src="../templates/yovoco/template_preview.png" /></p>
+		<h2>Module positions</h2>
+		<ol>
+            <li>onepage</li>
+            <li>onepage-bottom</li>
+            <li>logo</li>
+            <li>menu</li>
+            <li>search</li>
+            <li>top</li>
+            <li>inner-top</li>
+            <li>sidebar-a</li>
+            <li>sidebar-b</li>
+            <li>inner-bottom</li>
+            <li>bottom</li>
+            <li>footer</li>
+            <li>background</li>
+            <li>debug</li>
+		</ol>
+		<p>Created by <a href="http://www.nn-medienagentur.de" target="_blank">NN-Medienagentur | nn-medienagentur.de</a>.</p>
+	]]></description>
+	
+	<files><!-- no need to change -->
+		<folder>assets</folder>
+		<folder>bower_components</folder>
+		<folder>css</folder>
+		<folder>fonts</folder>
+		<folder>html</folder>
+		<folder>images</folder>
+		<folder>js</folder>
+		<folder>language</folder>
+		<folder>node_modules</folder>
+		<filename>.bowerrc</filename>
+		<filename>bower.json</filename>
+		<filename>component.php</filename>
+		<filename>error.php</filename>
+		<filename>favicon.ico</filename>
+		<filename>index.php</filename>
+		<filename>index_multipage.php</filename>
+		<filename>index_onepage.php</filename>
+		<filename>magic.php</filename>
+		<filename>offline.php</filename>
+		<filename>package.json</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>templateDetails.xml</filename>
+	</files>
+	
+	<positions><!-- define the positions for modules here -->
+        <position>onepage</position>
+        <position>onepagebottom</position>
+        <position>logo</position>
+        <position>menu</position>
+        <position>language</position>
+        <position>search</position>
+        <position>top</position>
+        <position>inner-top</position>
+        <position>sidebar-a</position>
+        <position>sidebar-b</position>
+        <position>inner-bottom</position>
+        <position>bottom</position>
+        <position>footer</position>
+        <position>footer-right</position>
+        <position>footerbottom</position>
+        <position>background</position>
+        <position>debug</position>
+	</positions>
+
+    <languages folder="language">
+        <language tag="de-DE">de-DE/de-DE.tpl_yovoco.ini</language>
+        <language tag="de-DE">de-DE/de-DE.tpl_yovoco.sys.ini</language>
+        <language tag="en-GB">en-GB/en-GB.tpl_yovoco.ini</language>
+        <language tag="en-GB">en-GB/en-GB.tpl_yovoco.sys.ini</language>
+    </languages>
+
+	<config><!-- no need to change -->
+		<fields name="params">
+
+			<fieldset name="advanced">
+
+                <!-- SHOWSYSTEMOUTPUT -->
+                <field  name="showsystemoutput"
+                        type="radio"
+                        class="btn-group"
+                        default="0"
+                        label="TPL_YOVOCO_PARAMETER_SHOWSYSTEMOUTPUT_LABEL"
+                        description="TPL_YOVOCO_PARAMETER_SHOWSYSTEMOUTPUT_DESC"
+                        >
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+
+                <!-- SHOWONFRONTPAGE -->
+                <field  name="hidecontentwrapper"
+                        type="radio"
+                        class="btn-group"
+                        default="0"
+                        label="TPL_YOVOCO_PARAMETER_HIDECONTENTWRAPPER_LABEL"
+                        description="TPL_YOVOCO_PARAMETER_HIDECONTENTWRAPPER_DESC"
+                        >
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+
+                <!-- PAGETYPE -->
+                <field  name="pagetype"
+                        type="radio"
+                        class="btn-group"
+                        default="multipage"
+                        label="TPL_YOVOCO_PARAMETER_PAGETYPE_LABEL"
+                        description="TPL_YOVOCO_PARAMETER_PAGETYPE_DESC"
+                        >
+                    <option value="onepage">TPL_YOVOCO_PARAMETER_ONEPAGE</option>
+                    <option value="multipage">TPL_YOVOCO_PARAMETER_MULTIPAGE</option>
+                </field>
+
+				<!-- MODERNIZR-->
+				<field  name="modernizr"
+                        type="radio"
+                        class="btn-group"
+                        default="0"
+			            label="TPL_YOVOCO_PARAMETER_MODERNIZR_LABEL"
+					    description="TPL_YOVOCO_PARAMETER_MODERNIZR_DESC"
+                        >
+				    <option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+
+                <!-- Holder.js-->
+                <field  name="holder"
+                        type="radio"
+                        class="btn-group"
+                        default="0"
+                        label="TPL_YOVOCO_PARAMETER_HOLDER_LABEL"
+                        description="TPL_YOVOCO_PARAMETER_HOLDER_DESC"
+                        >
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+			</fieldset>
+
+            <fieldset name="boostrap">
+                <!-- SIDEBAR A -->
+                <field  name="sidebar-a"
+                        class=""
+                        type="text"
+                        default="col-md-4"
+                        label="TPL_YOVOCO_PARAMETER_SIDEBAR_A_LABEL"
+                        description="TPL_YOVOCO_PARAMETER_SIDEBAR_A_DESC"
+                        />
+
+                <!-- SIDEBAR B -->
+                <field  name="sidebar-b"
+                        class=""
+                        type="text"
+                        default="col-md-4"
+                        label="TPL_YOVOCO_PARAMETER_SIDEBAR_B_LABEL"
+                        description="TPL_YOVOCO_PARAMETER_SIDEBAR_B_DESC"
+                        />
+
+                <!-- CONTENT 2 -->
+                <field  name="content-2-col"
+                        class=""
+                        type="text"
+                        default="col-md-8"
+                        label="TPL_YOVOCO_PARAMETER_CONTENT_2_COL_LABEL"
+                        description="TPL_YOVOCO_PARAMETER_CONTENT_2_COL_DESC"
+                        />
+
+                <!-- CONTENT 3 -->
+                <field  name="content-3-col"
+                        class=""
+                        type="text"
+                        default="col-md-4"
+                        label="TPL_YOVOCO_PARAMETER_CONTENT_3_COL_LABEL"
+                        description="TPL_YOVOCO_PARAMETER_CONTENT_3_COL_DESC"
+                        />
+            </fieldset>
+
+            <fieldset name="analytics">
+                <!-- GOOGLE ANALYTICS -->
+                <field  name="googleanalytics"
+                        type="radio"
+                        class="btn-group"
+                        default="0"
+                        label="TPL_YOVOCO_PARAMETER_GOOGLEANALYTICS_LABEL"
+                        description="TPL_YOVOCO_PARAMETER_GOOGLEANALYTICS_DESC"
+                        >
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+
+                <!-- GOOGLE ANALYTICS CODE-->
+                <field  name="googleanalyticscode"
+                        class=""
+                        type="text"
+                        default=""
+                        label="TPL_YOVOCO_PARAMETER_GOOGLEANALYTICS_CODE_LABEL"
+                        description="TPL_YOVOCO_PARAMETER_GOOGLEANALYTICS_CODE_DESC"
+                        />
+                <!-- GOOGLE ANALYTICS CODE-->
+                <field  name="googleanalyticsdomain"
+                        class=""
+                        type="text"
+                        default=""
+                        label="TPL_YOVOCO_PARAMETER_GOOGLEANALYTICS_DOMAIN_LABEL"
+                        description="TPL_YOVOCO_PARAMETER_GOOGLEANALYTICS_DOMAIN_DESC"
+                        />
+            </fieldset>
+
+            <fieldset name="webfonts">
+                <!-- GOOGLE FONT-->
+                <field  name="googlefont"
+                        class=""
+                        type="text"
+                        default=""
+                        label="TPL_YOVOCO_PARAMETER_GOOGLEFONT_LABEL"
+                        description="TPL_YOVOCO_PARAMETER_GOOGLEFONT_DESC"
+                        />
+            </fieldset>
+
+            <fieldset name="disable">
+                <!-- Disable JavaScript -->
+                <field  name="disablejs"
+                        type="radio"
+                        class="btn-group"
+                        default="0"
+                        label="TPL_YOVOCO_PARAMETER_DISABLEJS_LABEL"
+                        description="TPL_YOVOCO_PARAMETER_DISABLEJS_DESC"
+                        >
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+
+                <!-- JavaScript Files -->
+                <field  name="fnjs"
+                        type="textarea"
+                        label="TPL_YOVOCO_PARAMETER_FNJS_LABEL"
+                        description="TPL_YOVOCO_PARAMETER_FNJS_LABEL"
+                        cols="30"
+                        default="mootools-core.js,caption.js"
+                        rows="4"
+                        />
+
+                <!-- Disable CSS -->
+                <field  name="disablecss"
+                        type="radio"
+                        class="btn-group"
+                        default="0"
+                        label="TPL_YOVOCO_PARAMETER_DISABLECSS_LABEL"
+                        description="TPL_YOVOCO_PARAMETER_DISABLECSS_DESC"
+                        >
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+
+                <!-- CSS Files -->
+                <field  name="fncss"
+                        type="textarea"
+                        label="TPL_YOVOCO_PARAMETER_FNCSS_LABEL"
+                        description="TPL_YOVOCO_PARAMETER_FNCSS_DESC"
+                        cols="30"
+                        rows="4"
+                        />
+            </fieldset>
+		</fields>
+	</config>
+	
+</extension>

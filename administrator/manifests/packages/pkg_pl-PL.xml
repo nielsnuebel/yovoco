@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="package" version="3.8" method="upgrade">
+	<name>Polish (Poland) (pl-PL) Language Pack</name>
+	<packagename>pl-PL</packagename>
+	<version>3.8.1.1</version>
+	<creationDate>Październik 2017</creationDate>
+	<author>Polskie Centrum Joomla</author>
+	<authorEmail>zwiastun@joomla.pl</authorEmail>
+	<authorUrl>http://www.joomla.pl</authorUrl>
+	<copyright>Copyright (C) 2005 - 2017 Open Source Matters, Inc. All rights reserved.</copyright>
+	<license>https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<url>https://github.com/joomla/joomla-cms</url>
+	<packager>Joomla! Project</packager>
+	<packagerurl>www.joomla.org</packagerurl>
+	<description>	<![CDATA[
+		<h3>3.8.1 Joomla - pakiet języka polskiego</h3>
+		
+		<p><span style="font-weight: normal">Polskie Centrum Joomla zapewnia społeczności kompletne tłumaczenia Joomla!.<br />
+		Ich przygotowanie kosztuje wiele czasu i pracy.</span></p>
+		
+		<h2>Wspieramy Cię, więc wesprzyj nas<br /><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ZL442C5WE8FT2">Przekaż darowiznę przez PayPal</a></h2>	
+		<p>&nbsp;</p>
+		<h3 style="margin:0;">Nie korzystasz z PayPal?<br /><a href="http://fundacja.joomla.pl/pomagaj?id=62">Zobacz tutaj</a></h3>
+		<p>jak możesz wesprzeć Fundację PCJ Otwarte Źródła</p>
+		<p>&nbsp;</p><p>&nbsp;</p>
+	]]></description>
+	<blockChildUninstall>true</blockChildUninstall>
+	<files>
+		<folder type="language" client="site" id="pl-PL">site_pl-PL</folder>
+		<folder type="language" client="administrator" id="pl-PL">admin_pl-PL</folder>
+	</files>
+	<updateservers>
+		<server type="collection" priority="1" name="Accredited Joomla! Translations">
+			https://update.joomla.org/language/translationlist_3.xml
+		</server>
+	</updateservers>
+</extension>

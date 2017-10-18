@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.1" type="plugin" group="system" method="upgrade">
+    <name>plg_system_nnbootstrapparams</name>
+    <author>Niels Nübel</author>
+    <creationDate>11 June 2014</creationDate>
+    <copyright>(C) 2005 - 2013 Open Source Matters. All rights reserved.</copyright>
+    <license>GNU General Public License version 2 or later; see	LICENSE.txt</license>
+    <authorEmail>info@nn-medienagentur.de</authorEmail>
+    <authorUrl>www.nn-medienagentur.de</authorUrl>
+    <version>3.5.0</version>
+    <description>PLG_SYSTEM_NNBOOTSTRAPPARAMS_XML_DESCRIPTION</description>
+    <files>
+        <file plugin="nnbootstrapparams">nnbootstrapparams.php</file>
+        <filename>index.html</filename>
+        <folder>params</folder>
+        <folder>library</folder>dd
+        <folder>language</folder>
+    </files>
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field name="exludeposition" type="text"
+                       description="Which module position's to exlude from your changes (top,left,sidebar)"
+                       label="Exlude Module Position's"
+                       default="sidebar-a,sidebar-b,sidebar"
+                        >
+                </field>
+                <field  name="add_bootstrap"
+                        type="radio"
+                        class="btn-group"
+                        default="1"
+                        label="PLG_SYSTEM_NNBOOTSTRAPPARAMS_ADD_BOOTSTRAP_LABEL"
+                        description="PLG_SYSTEM_NNBOOTSTRAPPARAMS_ADD_BOOTSTRAP_DESC"
+                        >
+                    <option value="1">add</option>
+                    <option value="0">not set</option>
+                </field>
+
+                <field  name="add_margin"
+                        type="radio"
+                        class="btn-group"
+                        default="1"
+                        label="PLG_SYSTEM_NNBOOTSTRAPPARAMS_ADD_MARGIN_LABEL"
+                        description="PLG_SYSTEM_NNBOOTSTRAPPARAMS_ADD_MARGIN_DESC"
+                        >
+                    <option value="1">add</option>
+                    <option value="0">not set</option>
+                </field>
+                <field  name="add_padding"
+                        type="radio"
+                        class="btn-group"
+                        default="1"
+                        label="PLG_SYSTEM_NNBOOTSTRAPPARAMS_ADD_PADDING_LABEL"
+                        description="PLG_SYSTEM_NNBOOTSTRAPPARAMS_ADD_PADDING_DESC"
+                        >
+                    <option value="1">add</option>
+                    <option value="0">not set</option>
+                </field>
+                <field  name="add_background"
+                        type="radio"
+                        class="btn-group"
+                        default="1"
+                        label="PLG_SYSTEM_NNBOOTSTRAPPARAMS_ADD_BACKGROUND_LABEL"
+                        description="PLG_SYSTEM_NNBOOTSTRAPPARAMS_ADD_BACKGROUND_DESC"
+                        >
+                    <option value="1">add</option>
+                    <option value="0">not set</option>
+                </field>
+                <field  name="add_onepage"
+                        type="radio"
+                        class="btn-group"
+                        default="1"
+                        label="PLG_SYSTEM_NNBOOTSTRAPPARAMS_ADD_ONEPAGE_LABEL"
+                        description="PLG_SYSTEM_NNBOOTSTRAPPARAMS_ADD_ONEPAGE_DESC"
+                        >
+                    <option value="1">add</option>
+                    <option value="0">not set</option>
+                </field>
+            </fieldset>
+        </fields>
+    </config>
+</extension>
