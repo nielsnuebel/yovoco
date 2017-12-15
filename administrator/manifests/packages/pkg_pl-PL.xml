@@ -2,8 +2,8 @@
 <extension type="package" version="3.8" method="upgrade">
 	<name>Polish (Poland) (pl-PL) Language Pack</name>
 	<packagename>pl-PL</packagename>
-	<version>3.8.1.1</version>
-	<creationDate>Październik 2017</creationDate>
+	<version>3.8.3.1</version>
+	<creationDate>grudzień 2017</creationDate>
 	<author>Polskie Centrum Joomla</author>
 	<authorEmail>zwiastun@joomla.pl</authorEmail>
 	<authorUrl>http://www.joomla.pl</authorUrl>
@@ -13,16 +13,18 @@
 	<packager>Joomla! Project</packager>
 	<packagerurl>www.joomla.org</packagerurl>
 	<description>	<![CDATA[
-		<h3>3.8.1 Joomla - pakiet języka polskiego</h3>
-		
-		<p><span style="font-weight: normal">Polskie Centrum Joomla zapewnia społeczności kompletne tłumaczenia Joomla!.<br />
-		Ich przygotowanie kosztuje wiele czasu i pracy.</span></p>
-		
-		<h2>Wspieramy Cię, więc wesprzyj nas<br /><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ZL442C5WE8FT2">Przekaż darowiznę przez PayPal</a></h2>	
+		<div class="text-center span12"> 
+		<h3>Joomla! - pakiet języka polskiego - 3.8.3</h3>
+		<p><span style="font-weight: normal">Polskie Centrum Joomla zapewnia społeczności kompletne tłumaczenia Joomla!<br />Ich przygotowanie kosztuje wiele czasu i pracy.</span></p>
+		<div class="alert alert-info">
+		<h3>Wspieramy Ciebie, więc wesprzyj i nas.</h3>
+		<h3>Przekaż darowiznę przez:</h3>
+		<a class="btn btn-success" href="http://bit.ly/paypal-fundacjapcj">PayPal</a>	
+		<a class="btn btn-success" href="http://bit.ly/przekaz-darowizne-payu">PayU</a> 
+		<a class="btn btn-info" href="http://bit.ly/przekaz-darowizne-pcj">Przelew bankowy</a>
 		<p>&nbsp;</p>
-		<h3 style="margin:0;">Nie korzystasz z PayPal?<br /><a href="http://fundacja.joomla.pl/pomagaj?id=62">Zobacz tutaj</a></h3>
-		<p>jak możesz wesprzeć Fundację PCJ Otwarte Źródła</p>
-		<p>&nbsp;</p><p>&nbsp;</p>
+		</div>
+		</div>
 	]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>

@@ -2,8 +2,8 @@
 <extension type="package" version="3.8" method="upgrade">
 	<name>Italian Language Pack</name>
 	<packagename>it-IT</packagename>
-	<version>3.8.1.1</version>
-	<creationDate>04 Ottobre 2017</creationDate>
+	<version>3.8.3.1</version>
+	<creationDate>12 December 2017</creationDate>
 	<author>Italian translation team : joomla.it</author>
 	<authorEmail>info@joomla.it</authorEmail>
 	<authorUrl>www.joomla.it</authorUrl>
@@ -12,7 +12,7 @@
 	<url></url>
 	<packager>Joomla! Italia</packager>
 	<packagerurl>www.joomla.it</packagerurl>
-	<description>Joomla! 3.8 Full Italian (it-IT) Language Package - Version 3.8.1v1</description>
+	<description>Joomla! 3.8 Full Italian (it-IT) Language Package - Version 3.8.3v1</description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>
 	    <folder type="language" client="site" id="it-IT">site_it-IT</folder>

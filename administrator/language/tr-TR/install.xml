@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<extension version="3.7" client="administrator" type="language" method="upgrade">
+<extension version="3.8" client="administrator" type="language" method="upgrade">
     <name>Türkçe (Türkiye)</name>
     <tag>tr-TR</tag>
-	<version>3.7.2.1</version>
-	<creationDate>May 2017</creationDate>
+	<version>3.8.2.1</version>
+	<creationDate>November 2017</creationDate>
 	<author>Ümit Kenan Gönüllü</author>
 	<authorEmail>bilgi@jt.gen.tr</authorEmail>
 	<authorUrl>www.jt.gen.tr</authorUrl>
@@ -97,6 +97,8 @@
 		<filename>tr-TR.mod_popular.sys.ini</filename>
 		<filename>tr-TR.mod_quickicon.ini</filename>
 		<filename>tr-TR.mod_quickicon.sys.ini</filename>
+		<filename>tr-TR.mod_sampledata.ini</filename>
+		<filename>tr-TR.mod_sampledata.sys.ini</filename>
 		<filename>tr-TR.mod_stats_admin.ini</filename>
 		<filename>tr-TR.mod_stats_admin.sys.ini</filename>
 		<filename>tr-TR.mod_status.ini</filename>
@@ -161,38 +163,38 @@
 		<filename>tr-TR.plg_editors-xtd_readmore.sys.ini</filename>
 		<filename>tr-TR.plg_extension_joomla.ini</filename>
 		<filename>tr-TR.plg_extension_joomla.sys.ini</filename>
-		<filename>tr-TR.plg_fields_calendar.ini</filename>                                      
-		<filename>tr-TR.plg_fields_calendar.sys.ini</filename>                                  
-		<filename>tr-TR.plg_fields_checkboxes.ini</filename>                                    
-		<filename>tr-TR.plg_fields_checkboxes.sys.ini</filename>                                
-		<filename>tr-TR.plg_fields_color.ini</filename>                                         
-		<filename>tr-TR.plg_fields_color.sys.ini</filename>                                     
-		<filename>tr-TR.plg_fields_editor.ini</filename>                                        
-		<filename>tr-TR.plg_fields_editor.sys.ini</filename>                                    
-		<filename>tr-TR.plg_fields_image.ini</filename>                                         
-		<filename>tr-TR.plg_fields_image.sys.ini</filename>                                     
-		<filename>tr-TR.plg_fields_imagelist.ini</filename>                                     
-		<filename>tr-TR.plg_fields_imagelist.sys.ini</filename>                                 
-		<filename>tr-TR.plg_fields_integer.ini</filename>                                       
-		<filename>tr-TR.plg_fields_integer.sys.ini</filename>                                   
-		<filename>tr-TR.plg_fields_list.ini</filename>                                          
-		<filename>tr-TR.plg_fields_list.sys.ini</filename>                                      
-		<filename>tr-TR.plg_fields_media.ini</filename>                                         
-		<filename>tr-TR.plg_fields_media.sys.ini</filename>                                     
-		<filename>tr-TR.plg_fields_radio.ini</filename>                                         
-		<filename>tr-TR.plg_fields_radio.sys.ini</filename>                                     
-		<filename>tr-TR.plg_fields_sql.ini</filename>                                           
-		<filename>tr-TR.plg_fields_sql.sys.ini</filename>                                       
-		<filename>tr-TR.plg_fields_text.ini</filename>                                          
-		<filename>tr-TR.plg_fields_text.sys.ini</filename>                                      
-		<filename>tr-TR.plg_fields_textarea.ini</filename>                                      
-		<filename>tr-TR.plg_fields_textarea.sys.ini</filename>                                  
-		<filename>tr-TR.plg_fields_url.ini</filename>                                           
-		<filename>tr-TR.plg_fields_url.sys.ini</filename>                                       
-		<filename>tr-TR.plg_fields_user.ini</filename>                                          
-		<filename>tr-TR.plg_fields_user.sys.ini</filename>                                      
-		<filename>tr-TR.plg_fields_usergrouplist.ini</filename>                                 
-		<filename>tr-TR.plg_fields_usergrouplist.sys.ini</filename>		
+		<filename>tr-TR.plg_fields_calendar.ini</filename>
+		<filename>tr-TR.plg_fields_calendar.sys.ini</filename>
+		<filename>tr-TR.plg_fields_checkboxes.ini</filename>
+		<filename>tr-TR.plg_fields_checkboxes.sys.ini</filename>
+		<filename>tr-TR.plg_fields_color.ini</filename>
+		<filename>tr-TR.plg_fields_color.sys.ini</filename>
+		<filename>tr-TR.plg_fields_editor.ini</filename>
+		<filename>tr-TR.plg_fields_editor.sys.ini</filename>
+		<filename>tr-TR.plg_fields_image.ini</filename>
+		<filename>tr-TR.plg_fields_image.sys.ini</filename>
+		<filename>tr-TR.plg_fields_imagelist.ini</filename>
+		<filename>tr-TR.plg_fields_imagelist.sys.ini</filename>
+		<filename>tr-TR.plg_fields_integer.ini</filename>
+		<filename>tr-TR.plg_fields_integer.sys.ini</filename>
+		<filename>tr-TR.plg_fields_list.ini</filename>
+		<filename>tr-TR.plg_fields_list.sys.ini</filename>
+		<filename>tr-TR.plg_fields_media.ini</filename>
+		<filename>tr-TR.plg_fields_media.sys.ini</filename>
+		<filename>tr-TR.plg_fields_radio.ini</filename>
+		<filename>tr-TR.plg_fields_radio.sys.ini</filename>
+		<filename>tr-TR.plg_fields_sql.ini</filename>
+		<filename>tr-TR.plg_fields_sql.sys.ini</filename>
+		<filename>tr-TR.plg_fields_text.ini</filename>
+		<filename>tr-TR.plg_fields_text.sys.ini</filename>
+		<filename>tr-TR.plg_fields_textarea.ini</filename>
+		<filename>tr-TR.plg_fields_textarea.sys.ini</filename>
+		<filename>tr-TR.plg_fields_url.ini</filename>
+		<filename>tr-TR.plg_fields_url.sys.ini</filename>
+		<filename>tr-TR.plg_fields_user.ini</filename>
+		<filename>tr-TR.plg_fields_user.sys.ini</filename>
+		<filename>tr-TR.plg_fields_usergrouplist.ini</filename>
+		<filename>tr-TR.plg_fields_usergrouplist.sys.ini</filename>
 		<filename>tr-TR.plg_finder_categories.ini</filename>
 		<filename>tr-TR.plg_finder_categories.sys.ini</filename>
 		<filename>tr-TR.plg_finder_contacts.ini</filename>
@@ -219,6 +221,8 @@
 		<filename>tr-TR.plg_quickicon_joomlaupdate.sys.ini</filename>
 		<filename>tr-TR.plg_quickicon_phpversioncheck.ini</filename>
 		<filename>tr-TR.plg_quickicon_phpversioncheck.sys.ini</filename>
+		<filename>tr-TR.plg_sampledata_blog.ini</filename>
+		<filename>tr-TR.plg_sampledata_blog.sys.ini</filename>
 		<filename>tr-TR.plg_search_categories.ini</filename>
 		<filename>tr-TR.plg_search_categories.sys.ini</filename>
 		<filename>tr-TR.plg_search_contacts.ini</filename>

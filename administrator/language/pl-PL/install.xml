@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<extension version="3.7" client="administrator" type="language" method="upgrade">
+<extension version="3.8" client="administrator" type="language" method="upgrade">
 	<name>Polish (PL)</name>
 	<tag>pl-PL</tag>
-	<version>3.8.1</version>
-	<creationDate>Październik 2017</creationDate>
+	<version>3.8.3</version>
+	<creationDate>Grudzień 2017</creationDate>
 	<author>Polskie Centrum Joomla</author>
 	<authorEmail>zwiastun@joomla.pl</authorEmail>
 	<authorUrl>http://www.joomla.pl</authorUrl>
 	<copyright>Copyright (C) 2005-2017 Open Source Matters. All right reserved.</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
-	<description>język zaplecza Joomla! 3.8.1 - http://www. joomla. pl</description>
+	<description>Język zaplecza Joomla! 3.8.3 - http://www. joomla. pl</description>
 	<files>
 		<folder>/</folder>
 		<filename file="meta">install.xml</filename>

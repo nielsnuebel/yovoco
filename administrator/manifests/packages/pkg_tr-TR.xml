@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="UTF-8" ?>
-<extension type="package" version="3.7" method="upgrade">
+<extension type="package" version="3.8" method="upgrade">
 	<name>Turkish Language Pack</name>
 	<packagename>tr-TR</packagename>
-	<version>3.7.2.1</version>
-	<creationDate>May 2017</creationDate>
+	<version>3.8.2.1</version>
+	<creationDate>November 2017</creationDate>
 	<author>Ümit Kenan Gönüllü</author>
 	<authorEmail>bilgi@jt.gen.tr</authorEmail>
 	<authorUrl>www.jt.gen.tr</authorUrl>
@@ -14,7 +14,7 @@
 	<packagerurl>www.jt.gen.tr</packagerurl>
 	<description>
 		<![CDATA[
-		<h3>Joomla 3.7 Türkçe (tr-TR) Dil Dosyaları Paketi</h3>
+		<h3>Türkçe (tr-TR) Dil Dosyaları Paketi</h3>
 		<br />
 		<strong>Site ve denetim masası dil dosyalarını içerir.</strong>
 		<br />
