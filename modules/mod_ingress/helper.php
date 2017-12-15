@@ -1,7 +1,7 @@
 <?php
 /**
  * @package     Joomla.Site
- * @subpackage  mod_articles_news
+ * @subpackage  mod_ingress
  *
  * @copyright   Copyright (C) 2005 - 2015 Open Source Matters, Inc. All rights reserved.
  * @license     GNU General Public License version 2 or later; see LICENSE.txt
@@ -55,41 +55,40 @@ class ModIngressHelper
 		$status = $ingressStatus->status;
 
 		// Username
-		if(in_array($status, array(11, 8, 1, 2,22)))
+		if (in_array($status, array(11, 8, 1, 2,22)))
 		{
 			$error['error']['f101'] = JText::_('MOD_INGRESS_RESPONSE_ERROR_' . $status);
 		}
 
 		// Passwort
-		if(in_array($status, array(3, 4, 5, 6, 13, 14, 15, 16, 17, 18, 19, 20)))
+		if (in_array($status, array(3, 4, 5, 6, 13, 14, 15, 16, 17, 18, 19, 20)))
 		{
 			$error['error']['password'] = JText::_('MOD_INGRESS_RESPONSE_ERROR_' . $status);
 		}
 
 		// Panelbedingungen
-		if(in_array($status, array(7)))
+		if (in_array($status, array(7)))
 		{
 			$error['error']['global'] = JText::_('MOD_INGRESS_RESPONSE_ERROR_' . $status);
 		}
 
 		// Datensatz nicht Speichern
-		if(in_array($status, array(12)))
+		if (in_array($status, array(12)))
 		{
 			$error['error']['global'] = JText::_('MOD_INGRESS_RESPONSE_ERROR_' . $status);
 		}
 
 		// Undifiened
-		if(in_array($status, array(21)))
+		if (in_array($status, array(21)))
 		{
 			$error['error']['global'] = $ingressStatus->error;
 		}
 
 		// User already exist
-		if(in_array($status, array(23)))
+		if (in_array($status, array(23)))
 		{
 			$error['error']['global'] = JText::_('MOD_INGRESS_RESPONSE_ERROR_' . $status);
 		}
-
 
 		return $error;
 	}
