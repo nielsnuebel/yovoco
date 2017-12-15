@@ -8067,5 +8067,13 @@ a span.image-title {
   font-size: 21px;
   margin-top: 7px;
 }
+.mod-ingress {
+  width: 100%;
+  padding: 20px 20px;
+  background: white;
+}
+.mod-ingress h3 {
+  font-size: 20px;
+}
 
 /*# sourceMappingURL=maps/style.css.map */
