@@ -67,7 +67,7 @@ gulp.task('mergescripts', function() {
 
 gulp.task('browser-sync',function(){
 	browserSync({
-		proxy:"yovoco.dev",
+		proxy:"yovoco.local",
 		port: 3000,
 		open: false
 	})
