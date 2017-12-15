@@ -8075,5 +8075,11 @@ a span.image-title {
 .mod-ingress h3 {
   font-size: 20px;
 }
+.mod-ingress .submit-info {
+  margin-top: 10px;
+  margin-bottom: 0;
+  font-size: 12px;
+  color: darkgray;
+}
 
 /*# sourceMappingURL=maps/style.css.map */

@@ -77,6 +77,7 @@ JHtml::_('script', 'system/html5fallback.js', false, true);
 		<input type="hidden" name="module_id" value="<?= $modul->id?>">
 		<input type="hidden" name="REMOTE_ADDR" value="<?= $_SERVER['REMOTE_ADDR'] ?>">
 		<button type="submit" class="btn btn-yovoco submitingress"><?= JText::_('MOD_INGRESS_SEND')?></button>
+		<p class="submit-info"><?= JText::_('MOD_INGRESS_SUBMIT_INFO'); ?></p>
 	</form>
 	<h3 class="ingress-success"><?= JText::_('MOD_INGRESS_RESPONSE_STATUS_31');?></h3>
 </div>
