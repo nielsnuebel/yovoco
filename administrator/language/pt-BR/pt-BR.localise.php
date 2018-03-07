@@ -2,7 +2,7 @@
 /**
  * @package    Joomla.Language
  *
- * @copyright  Copyright (C) 2005 - 2017 Open Source Matters, Inc. Todos os direitos reservados.
+ * @copyright  Copyright (C) 2005 - 2018 Open Source Matters, Inc. Todos os direitos reservados.
  * @license    Licença Pública Geral GNU - versão 2 ou superior; ver LICENSE.txt
  */
 

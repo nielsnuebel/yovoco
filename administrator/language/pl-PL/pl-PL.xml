@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <metafile version="3.8" client="administrator">
 	<name>Polish (PL)</name>
-	<version>3.8.3</version>
-	<creationDate>Grudzień 2017</creationDate>
+	<version>3.8.5</version>
+	<creationDate>Luty 2018</creationDate>
 	<author>Polskie Centrum Joomla!</author>
 	<authorEmail>zwiastun@joomla.pl</authorEmail>
 	<authorUrl>http://www.joomla.pl</authorUrl>
-	<copyright>(C) 2005 - 2017 Open Source Matters. All right reserved.</copyright>
+	<copyright>(C) 2005 - 2018 Open Source Matters. All right reserved.</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
-	<description><![CDATA[język zaplecza Joomla! 3.8.3 - http://www. joomla. pl]]></description>
+	<description><![CDATA[język zaplecza Joomla! 3.8.5 - http://www. joomla. pl]]></description>
 	<metadata>
 		<name>Polish (PL)</name>
 		<nativeName>Polski (PL)</nativeName>

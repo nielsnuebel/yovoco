@@ -3,12 +3,12 @@
 	<tag>it-IT</tag>
 	<name>Italian (IT)</name>
 	<description>Italian site language for Joomla 3.8</description>
-	<version>3.8.3.1</version>
-	<creationDate>12 December 2017</creationDate>
+	<version>3.8.5.1</version>
+	<creationDate>06 February 2018</creationDate>
 	<author>Italian Translation Team</author>
-	<authorEmail>info@joomla.it</authorEmail>
-	<authorUrl>www.joomla.it</authorUrl>
-	<copyright>Copyright (C) 2005 - 2017 Open Source Matters and Joomla.it. All rights reserved.</copyright>
+	<authorEmail>stellainformatica@gmail.com</authorEmail>
+	<authorUrl>www.joomla.org</authorUrl>
+	<copyright>Copyright (C) 2005 - 2018 Open Source Matters and Italian Translation Team. All rights reserved.</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<metadata>
 		<name>Italian (Italy)</name>

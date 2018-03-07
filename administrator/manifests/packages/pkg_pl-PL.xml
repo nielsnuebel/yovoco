@@ -2,19 +2,19 @@
 <extension type="package" version="3.8" method="upgrade">
 	<name>Polish (Poland) (pl-PL) Language Pack</name>
 	<packagename>pl-PL</packagename>
-	<version>3.8.3.1</version>
-	<creationDate>grudzień 2017</creationDate>
+	<version>3.8.5.1</version>
+	<creationDate>luty 2018</creationDate>
 	<author>Polskie Centrum Joomla</author>
 	<authorEmail>zwiastun@joomla.pl</authorEmail>
 	<authorUrl>http://www.joomla.pl</authorUrl>
-	<copyright>Copyright (C) 2005 - 2017 Open Source Matters, Inc. All rights reserved.</copyright>
+	<copyright>Copyright (C) 2005-2018 Open Source Matters, Inc. All rights reserved.</copyright>
 	<license>https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
 	<url>https://github.com/joomla/joomla-cms</url>
 	<packager>Joomla! Project</packager>
 	<packagerurl>www.joomla.org</packagerurl>
 	<description>	<![CDATA[
 		<div class="text-center span12"> 
-		<h3>Joomla! - pakiet języka polskiego - 3.8.3</h3>
+		<h3>Joomla! - pakiet języka polskiego - 3.8.5</h3>
 		<p><span style="font-weight: normal">Polskie Centrum Joomla zapewnia społeczności kompletne tłumaczenia Joomla!<br />Ich przygotowanie kosztuje wiele czasu i pracy.</span></p>
 		<div class="alert alert-info">
 		<h3>Wspieramy Ciebie, więc wesprzyj i nas.</h3>

@@ -1,9 +1,10 @@
 <?php
 /**
  * @package    Joomla.Language
- * @version	$Id: language.php joomla.it ì$
- * @copyright	Copyright (C) 2005 - 2017 Open Source Matters. All rights reserved.
+ * @version	$Id: language.php ì$
+ * @copyright	Copyright (C) 2005 - 2018 Open Source Matters. All rights reserved.
  * @copyright	Copyright (C) Translation 2008 - 2017 joomla.it
+ * @copyright (C) Translation 2018 Italian Translation Team
  * @license	GNU General Public License version 2 or later; see LICENSE.txt
  */
  

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<metafile version="3.7" client="administrator">
+<metafile version="3.8" client="administrator">
 	<name>Português do Brasil (pt-BR)</name>
-	<version>3.8.2.1</version>
-	<creationDate>Novembro de 2017</creationDate>
+	<version>3.8.5.1</version>
+	<creationDate>Fevereiro 2018</creationDate>
 	<author>Projeto Joomla!</author>
 	<authorEmail>pt-br@joomlacarioca.com.br</authorEmail>
 	<authorUrl>http://brasil.joomla.com</authorUrl>
-	<copyright>Direitos de Autor (C) 2005 - 2017 Open Source Matters. Todos os direitos reservados.</copyright>
+	<copyright>Copyright (C) 2005 - 2018 Open Source Matters. Todos os direitos reservados.</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<description><![CDATA[Brazilian Portuguese Administrator language]]></description>
 	<metadata>

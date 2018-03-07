@@ -1,20 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<extension type="package" version="3.6" method="upgrade">
+<extension type="package" version="3.8" method="upgrade">
 	<name>English Australian Language Pack</name>
 	<packagename>en-AU</packagename>
-	<version>3.6.5.1</version>
-	<creationDate>December 2016</creationDate>
+	<version>3.8.5.1</version>
+	<creationDate>February 2018</creationDate>
 	<author>stevec4</author>
 	<authorEmail>stevec4@comcast.net</authorEmail>
 	<authorUrl>www.joomla.org</authorUrl>
-	<copyright>Copyright (C) 2005 - 2016 Open Source Matters. All rights reserved.</copyright>
+	<copyright>Copyright (C) 2005 - 2018 Open Source Matters. All rights reserved.</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
-<description>3.6.5.1 Joomla! English (Australia) Language Package</description>
+
+<description>Joomla! 3.8.5.1 English (Australia) Language Package</description>
+<blockChildUninstall>true</blockChildUninstall>
 <files>
         <file type="language" client="administrator" id="en-AU">admin_en-AU.zip</file>
         <file type="language" client="site" id="en-AU">site_en-AU.zip</file>
 </files>
 <updateservers>
-        <server type="collection" priority="1" name="Accredited Joomla! Translations">http://update.joomla.org/language/translationlist_3.xml</server>
+        <server type="collection" priority="1" name="Accredited Joomla! Translations">https://update.joomla.org/language/translationlist_3.xml</server>
     </updateservers>
 </extension>

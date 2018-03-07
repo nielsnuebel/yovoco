@@ -2,17 +2,17 @@
 <extension type="package" version="3.8" method="upgrade">
 	<name>Italian Language Pack</name>
 	<packagename>it-IT</packagename>
-	<version>3.8.3.1</version>
-	<creationDate>12 December 2017</creationDate>
-	<author>Italian translation team : joomla.it</author>
-	<authorEmail>info@joomla.it</authorEmail>
-	<authorUrl>www.joomla.it</authorUrl>
-	<copyright>Copyright (C) 2005 - 2017 joomla.it e Open Source Matters. Tutti i diritti riservati</copyright>
+	<version>3.8.5.1</version>
+	<creationDate>06 February 2018</creationDate>
+	<author>Italian Translation Team</author>
+	<authorEmail>stellainformatica@gmail.com</authorEmail>
+	<authorUrl>www.joomla.org</authorUrl>
+	<copyright>Copyright (C) 2005 - 2018 Open Source Matters e Italian Translation Team. Tutti i diritti riservati</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<url></url>
 	<packager>Joomla! Italia</packager>
-	<packagerurl>www.joomla.it</packagerurl>
-	<description>Joomla! 3.8 Full Italian (it-IT) Language Package - Version 3.8.3v1</description>
+	<packagerurl>www.joomla.org</packagerurl>
+	<description>Joomla! 3.8 Full Italian (it-IT) Language Package - Version 3.8.5v1</description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>
 	    <folder type="language" client="site" id="it-IT">site_it-IT</folder>
