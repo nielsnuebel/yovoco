@@ -86,6 +86,7 @@ if ($googlefont !='') $doc->addStyleSheet("https://fonts.googleapis.com/css?fami
 
 //Add CSS and Javascript
 $doc->addStyleSheet($tpath.'/css/style.css');
+$doc->addStyleSheet($tpath.'/css/custom.css');
 $doc->addScript($tpath.'/js/frontend.js');
 
 $jquerypath = $tpath.'/js/frontend.js';
