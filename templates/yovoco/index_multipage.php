@@ -125,6 +125,12 @@
 				<jdoc:include type="modules" name="<?php echo $pos; ?>" style="html5"/>
 				<!-- End <?php echo $pos; ?> -->
 			</div><!-- div.row -->
+			<div class="row countries">
+                <div class="col-md-12">
+                    <h6><?php echo JText::_('CONTRIES_AVAILABLE'); ?></h6>
+                    <jdoc:include type="modules" name="countries" style="none"/>
+                </div>
+			</div><!-- div.row -->
 		</div>
 	<?php endif;?>
 </footer>

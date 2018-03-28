@@ -75,6 +75,7 @@
         <position>footer-right</position>
         <position>footerbottom</position>
         <position>background</position>
+        <position>countries</position>
         <position>debug</position>
 	</positions>
 
