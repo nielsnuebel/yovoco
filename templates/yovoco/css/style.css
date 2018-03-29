@@ -7544,13 +7544,13 @@ p {
   background: rgba(153,19,52,0.79);*/
   color: #fff;
 }
-@media (min-width: 992px) and (min-height: 1090px) {
+/*@media (min-width: 992px) and (min-height: 1090px) {
   #bottom {
     bottom: 180px;
     position: absolute;
     width: 100%;
   }
-}
+}*/
 #bottom h2 {
   color: #fff;
   font-size: 1.875em;
