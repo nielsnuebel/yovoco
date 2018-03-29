@@ -208,7 +208,7 @@ class ModIngressHelper
 			$ingressData['error']['f106'] = JText::sprintf('MOD_INGRESS_PLZ_MIN', $min);
 		}
 
-		if (is_null($ingressData['password']) || $ingressData['f106'] == "")
+		if (is_null($ingressData['password']) || $ingressData['password'] == "")
 		{
 		    $ingressData['error']['password'] = JText::_('MOD_INGRESS_PASSWORD_REQUIRED');
 		}
