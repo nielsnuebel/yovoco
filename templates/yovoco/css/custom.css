@@ -3,3 +3,8 @@
   color: gray;
   font-size: 11px;
 }
+
+footer .chzn-container .chzn-drop {
+  bottom: 100%;
+  top: auto;
+}
