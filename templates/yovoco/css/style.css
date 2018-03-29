@@ -7546,7 +7546,7 @@ p {
 }
 @media (min-width: 992px) and (min-height: 1090px) {
   #bottom {
-    bottom: 114px;
+    bottom: 180px;
     position: absolute;
     width: 100%;
   }
